@@ -10,6 +10,7 @@ class IndexController extends Controller
 {
     public function indexAction()
     {
+        // test database https://github.com/manaphp/unit_test_db/blob/master/manaphp_unit_test.sql
         //$city = City::findFirst(1);
         $this->dispatcher->forward('about');
     }
